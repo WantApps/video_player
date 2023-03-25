@@ -175,7 +175,7 @@ NS_INLINE UIViewController *rootViewController() {
 
   // TODO(@recastrodiaz): should we use videoTrack.nominalFrameRate ?
   // Currently set at a constant 30 FPS
-  videoComposition.frameDuration = CMTimeMake(1, 30);
+  videoComposition.frameDuration = CMTimeMake(1, 60);
 
   return videoComposition;
 }
